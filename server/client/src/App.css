@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+
+.project-cards {
+  position: relative;
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
