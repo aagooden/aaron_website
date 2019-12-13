@@ -13,14 +13,16 @@ import Education from "./components/Education"
 class App extends Component {
   render() {
     return <div className="App">
-      <Navbar />
-      <Intro />
-      <Skills />
-      <ProjectBox />
-      <Experience />
-      <AboutMe />
-      <Education />
-      <Contact />
+      <div className="fullPageDiv">
+        <Navbar />
+        <Intro />
+        <Skills />
+        <ProjectBox />
+        <Experience />
+        <AboutMe />
+        <Education />
+        <Contact />
+      </div>
     </div>
   }
 }

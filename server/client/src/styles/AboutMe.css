@@ -29,6 +29,10 @@
   font-family: Georgia, 'Times New Roman' sans-serif;
   clear: none;
 }
+
+.wrapper {
+  margin: 40px;
+}
 .style-2 {
   margin-bottom: 0;
   margin-top: 0;
@@ -36,14 +40,14 @@
 }
 .style-2 p {
   color: white;
-  font-size: 24px;
+  font-size: 22px;
   margin-right: 2vw;
-  margin-left: 10vw;
+  margin-left: 8vw;
   
 }
 
 .style-2 h2 {
-  font-size: 34px;
+  font-size: 28px;
   color: rgb(1,169,247);
 }
 
