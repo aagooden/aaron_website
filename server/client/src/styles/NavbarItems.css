@@ -1,0 +1,12 @@
+.nav-link {
+  font-size: 25px;
+  margin: 10px;
+  color: grey;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  /* font-weight: bold; */
+  color: black;
+}
+

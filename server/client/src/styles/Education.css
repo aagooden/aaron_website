@@ -1,0 +1,52 @@
+.Education {
+    background-color: white;
+    min-height: 60vh;
+    text-align: center;
+    
+}
+
+.Education h1 {
+    font-size: 50px;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Education h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.education-container {
+    margin-bottom: 10vh;
+}
+
+.education-container p {
+    margin-top: 1vh;
+}
+
+.education-container h1 {
+    font-size: 35px;
+    color: black;
+    text-decoration: underline;
+    margin-bottom: .5vh;
+}
+
+.Education img {
+    height: 10vh;
+    margin: 1vw;
+}
+
+
+.education-header {
+    min-height:15vh;
+    background-color: white;
+}
+
+.education-header h1 {
+padding: 5vh;
+}
+
+.schools {
+    padding-left: 10v;
+}

@@ -1,13 +1,22 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  width: 60vw;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px){
+  .App {
+    width: 80vw;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .App {
+    width: 100vw;
+    margin: 0 auto;
+  }
 }
 
 
-.project-cards {
-  position: relative;
-  bottom: 0;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
 

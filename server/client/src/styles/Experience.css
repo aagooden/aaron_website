@@ -1,0 +1,68 @@
+.Experience {
+    background-color: white;
+    min-height: 50vh;
+    text-align: center;
+
+}
+
+.Experience h1 {
+    font-size: 50px;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Experience h4 {
+    font-size: 20px;
+    color: black;
+    margin: 0;
+}
+
+.Experience h3 {
+    margin: 0;
+}
+
+.Experience img {
+    height: 10vh;
+    margin: 1vw;
+}
+
+
+.experience-header {
+    min-height:15vh;
+    background-color: white;
+}
+
+.experience-header h1 {
+padding: 5vh;
+}
+
+.row {
+    display: flex;
+    /* margin-bottom: 2vh; */
+  }
+
+ul {
+    margin: 0;
+}
+  
+.column1 {
+    font-size: 1vw;
+    flex: 30%;
+    text-align: left;
+    margin-left: 1.5vw;
+}
+
+.column2 {
+    font-size: 1vw;
+    flex: 70%;
+    margin-right: 2vw;
+    margin-left: 4vw;
+    margin-top: 0;
+    text-align: left;
+    
+}
+
+.experience-container {
+    margin: vw;
+}

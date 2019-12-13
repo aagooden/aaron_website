@@ -1,0 +1,31 @@
+.Skills {
+    background-color: white;
+    min-height: 50vh;
+    text-align: center;
+    /* box-shadow: 12px 0 15px -4px rgba(252,252,252, 0.8), -12px 0 8px -4px rgba(252,252,252, 0.8); */
+}
+
+.Skills h1 {
+    font-size: 50px;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Skills img {
+    height: 10vh;
+    margin: 1vw;
+}
+
+.javascript {
+    display: flex;
+}
+
+.skills-header {
+    min-height:15vh;
+    background-color: white;
+}
+
+.skills-header h1 {
+padding: 5vh;
+}

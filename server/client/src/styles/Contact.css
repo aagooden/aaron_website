@@ -1,0 +1,30 @@
+.Contact {
+    background-color: #4d646b;
+    min-height: 40vh;
+    text-align: center;
+    
+}
+
+.Contact h1 {
+    font-size: 50px;
+    color: white;
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.contact-header {
+    min-height:15vh;
+    background-color: #4d646b;
+    padding-top: 7vh;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.Contact-header h1 {
+padding: 5vh;
+}
+
+#email {
+    font-size: 30px;
+}

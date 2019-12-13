@@ -7,5 +7,5 @@ require('./routes/routes.js')(app)
 
 const PORT = process.env.PORT || 5000
 app.listen(PORT, () => {
-    console.log("Server Listening on Port " + PORT)
+    console.log("Express Server Listening on Port " + PORT)
 })
