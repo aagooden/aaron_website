@@ -1,8 +1,11 @@
 const express = require('express')
 const app = express()
 
+require('dotenv').config()
 require('./routes/routes.js')(app)
-
+console.log("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%")
+console.log(process.env.NODE_ENV)
+if (process.env.NODE_ENV === 'dev') { console.log("It is equal to dev!!") }
 if (process.env.NODE_ENV === 'production') {
     // Express will serve up production assets
     // like main.js or main.css file

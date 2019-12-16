@@ -20,7 +20,7 @@ class AboutMe extends Component {
                 <div className="wrapper">
                     <img className="figure" src={require('../images/mission-accomplished.png')} />
                     <h2>What do you consider some of your biggest professional and personal accomplishments?</h2>
-                    <p>My biggest accomplishment is the fact that I am currently in tech at all.  I resigned my job a few years ago to persue a career in tech as a second career.  It's been a challenging journey and I am thrilled to be finding my way.  </p>
+                    <p>My biggest accomplishment is the fact that I am currently in tech at all.  I resigned my job a few years ago to persue a career in tech.  It's been a challenging journey and I am thrilled to be finding my way.  </p>
                 </div>
             </section >
 

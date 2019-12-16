@@ -11,10 +11,11 @@ class ProjectCard extends Component {
                         <h1>{this.props.name}</h1>
                     </div>
                     <div className="flip-card-back">
-                        <h1>Project Card</h1>
-                        <a href={this.props.url}>Launch App</a>
+
+                        <a href={this.props.url} className="btn btn-white" onClick={this.punchHandler}>Launch</a>
                         <br />
-                        <a href={this.props.gitHub}>Github Repo</a>
+                        <a href={this.props.gitHub} className="btn btn-white" onClick={this.punchHandler}>View Code</a>
+
                     </div>
                 </div>
             </div>

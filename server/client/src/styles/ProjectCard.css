@@ -10,7 +10,7 @@
   background-color: transparent;
   width: 300px;
   height: 200px;
-  border: 1px solid #1d1c1c;
+  /* border: 1px solid #1d1c1c; */
   perspective: 1000px; 
 }
 
@@ -37,10 +37,23 @@
 .flip-card-front {
   background-color:#4d646b;
   color: black;
+  border-radius: 1vw;
 }
 
 .flip-card-back {
+  display: flex;
+  flex-direction: column;
   background-color: dodgerblue;
   color: white;
   transform: rotateY(180deg);
+  border-radius: 1vw;
+  padding: 2vh;
+}
+
+.flip-card-back button {
+  /* background-color: #4d646b; */
+  /* color: white; */
+  font-size: large;
+  margin: 10 px;
+  padding: 1vw;
 }
